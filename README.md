@@ -6,7 +6,9 @@ https://sanesga.github.io/practica_docker_compose.github.io/
 
 ***
 
-![logo](./img/logo.png)
+<p align="center">
+<img src="./img/logo.png" alt="elastic_search_logo" style="width:300px;"/>
+</p>
 
 ***
 
@@ -163,7 +165,7 @@ A continuación iremos editando el archivo, añadiendo los servicios necesarios 
 **1. ELASTIC SEARCH**
 
 <p align="center">
-<img src="./img/logo2.png" alt="elastic_search_logo" style="width:200px;"/>
+<img src="./img/logo2.png" alt="elastic_search_logo" style="width:250px;"/>
 </p>
 
 Añadimos al fichero docker-compose.yml la configuración para Elasticsearch. **Elasticsearch** es un motor open source de analítica y análisis distribuido, para todo tipo de datos. Por su capacidad de indexar muchos tipos de contenido, es utilizado en búsquedas, analíticas de log, monitoreo de rendimiento, etc.
@@ -240,7 +242,7 @@ Verificamos que se ha creado el volumen:
 **2. MONGO DB**
 
 <p align="center">
-<img src="./img/logo3.png" alt="mongo_logo" style="width:200px;"/>
+<img src="./img/logo3.png" alt="mongo_logo" style="width:250px;"/>
 </p>
 
 Añadimos al fichero docker-compose.yml la configuración para mongoDB. **MongoDB** es un sistema de base de datsos NoSQL orientado a documentos de código abierto.
@@ -296,7 +298,7 @@ Verificamos que se ha creado el volumen:
 **3. GRAYLOG**
 
 <p align="center">
-<img src="./img/logo4.png" alt="graylog_logo" style="width:200px;"/>
+<img src="./img/logo4.png" alt="graylog_logo" style="width:250px;"/>
 </p>
 
 Añadimos al fichero docker-compose.yml la configuración para graylog. **Graylog** es una plataforma que permite la gestión de registros de datos estructurados y no estructurados junto con aplicaciones de depuración. Se basa en Elasticsearch, MongoDB y Scala.
@@ -350,7 +352,7 @@ Verificamos que se ha creado el volumen:
 **4. MYSQL**
 
 <p align="center">
-<img src="./img/logo5.png" alt="mongo_logo" style="width:200px;"/>
+<img src="./img/logo5.png" alt="mongo_logo" style="width:250px;"/>
 </p>
 
 Añadimos al fichero docker-compose.yml la configuración para MySQL. **MySQL** es un sistema de gestión de bases de datos relacional.
@@ -415,7 +417,7 @@ Verificamos que se ha creado el volumen:
 **5. WORDPRESS**
 
 <p align="center">
-<img src="./img/logo6.png" alt="wordpress_logo" style="width:200px;"/>
+<img src="./img/logo6.png" alt="wordpress_logo" style="width:250px;"/>
 </p>
 
 Añadimos al fichero docker-compose.yml la configuración para Wordpress. **WordPress** es una plataforma para la creación de blogs, tiendas online y sitios web en general.
