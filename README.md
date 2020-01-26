@@ -7,7 +7,7 @@ https://sanesga.github.io/practica_docker_compose.github.io/
 ***
 
 <p align="center">
-<img src="./img/logo.png" alt="elastic_search_logo" style="width:300px;"/>
+<img src="./img/logo.png" alt="elastic_search_logo" style="width:350px;"/>
 </p>
 
 ***
@@ -102,6 +102,7 @@ volumes:
     - gelf-address: "udp://localhost:12201": Dirección a la cual se conectará para mostrar los logs. 
     - tag: "primeros_logs" :Nombre asignado a los logs.
 
+
 - **networks** y **volumes** del pie del archivo: Especificamos la red y los volúmenes compartidos por los containers.
     
 ***
@@ -181,6 +182,7 @@ Todas las variables están explicadas en la introducción de la práctica. A con
    - transport-host=0.0.0.0: Dirección a través de la cual se establece la comunicación entre nodos.
    - "ES_JAVA_OPTS=-Xmx256m -Xms256m": Configuración de la memoria dinámica asignada.
 
+
 - Healthcheck:
 
    - test: ["CMD", "curl", "-f", "http://0.0.0.0:9200"]: El comando curl -f verifica la conectividad a la URL indicada.
@@ -252,7 +254,7 @@ Añadimos al fichero docker-compose.yml la configuración para mongoDB. **MongoD
 Todas las variables están explicadas en la introducción de la práctica. A continuación explicamos las que son específicas de este contenedor:
 
 - healthcheck:
-   -  test: echo 'db.runCommand("ping").ok' | mongo mongo:27017/test --quiet: Hace un ping para verificar la conectividad.
+  - test: echo 'db.runCommand("ping").ok' | mongo mongo:27017/test     --quiet: Hace un ping para verificar la conectividad.
 
 
 Paramos el contenedor anterior con ctrl+c y volvemos a ejecutar el comando:
